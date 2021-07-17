@@ -1,0 +1,30 @@
+.signinButton {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-bottom: 5px solid gray;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  outline: none;
+  transition-duration: 0.08s;
+}
+.signinButton:active {
+  bottom: -3px;
+  border-bottom: 2px solid grey;
+}
+
+.signinButton > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.7em;
+}

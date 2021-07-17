@@ -1,0 +1,32 @@
+.header {
+  height: 10vh;
+  min-height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8em 2em;
+  box-sizing: border-box;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.logout {
+  padding: 0.5em 0;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 0.8em 1em;
+  }
+  .logout {
+    font-size: 1em;
+  }
+  .logo {
+    width: 140px;
+  }
+}

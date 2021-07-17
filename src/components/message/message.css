@@ -1,0 +1,51 @@
+.message {
+  display: flex;
+  align-items: center;
+}
+.message img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+.message p {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1.5em;
+  word-break: break-all;
+  line-height: 1.6;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  align-self: flex-end;
+  background-color: #194256;
+  color: #0ad5c1;
+}
+
+.recieve p {
+  background-color: #194256;
+  color: #0fc878;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(25, 147, 147, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(25, 147, 147, 0.2);
+}
